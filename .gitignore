@@ -1,5 +1,22 @@
+# Unreal generated
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Content: template folders the whitebox level needs.
+# Anything else under Content is editor-local or a third-party pack.
+Content/*
+!Content/Maps/
+!Content/Characters/
+!Content/Input/
+!Content/LevelPrototyping/
+!Content/ThirdPerson/
+!Content/__ExternalActors__/
+!Content/__ExternalObjects__/
+
 # Local notes and tooling
 \!_Docs/
+Tools/
 CLAUDE.md
 .claude/
 MEMORY.md
