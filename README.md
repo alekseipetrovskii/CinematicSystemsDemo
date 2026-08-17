@@ -8,13 +8,19 @@ Clone, open, press Play. Nothing to install or download.
 
 ## Status
 
-**0.0.2** — blockout complete. Three interior spaces, ship exterior, terrain, doors, panels, lighting, player and exit markers. No logic yet.
+**0.1.1** — the first act plays end to end. Emergency lighting and an alarm come up on start, the AI reports the damage in on-screen text, the panel by the bay door refuses, the maintenance lever restores power, and the powered panel raises the door.
+
+## Controls
+
+Move and look as in the Third Person template. `E` acts on whatever the on-screen prompt names.
 
 ## Levels
 
 | Level | Type | Holds |
 |---|---|---|
 | `Content/Maps/L_Main` | Persistent | The ship: interior spaces and outer hull |
-| `Content/Maps/L_Outside` | Streaming sublevel | The surface: ground and terrain |
+| `Content/Maps/L_Outside` | Streaming sublevel | The surface: ground and terrain, loaded on demand |
 
-Greybox colour marks the state an object is in when the scene starts: orange is usable now, purple is dead until powered, green responds to the player, grey grid is shell.
+Greybox colour tracks the state an object is in and changes when that state does: orange is usable now, purple is dead until powered, green responds to the player, grey grid is shell and scenery.
+
+Audio is generated at runtime by MetaSounds. The repository carries no sound files.
