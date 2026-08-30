@@ -1,4 +1,6 @@
 # Unreal generated
+Build/
+Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/

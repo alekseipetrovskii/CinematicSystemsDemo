@@ -4,6 +4,8 @@
 
 [Watch the demo](https://www.youtube.com/watch?v=j-VVgqHQgfM) — the run, the other branch, and the edge cases.
 
+[Windows build](https://github.com/alekseipetrovskii/CinematicSystemsDemo/releases/latest) — unzip and run, no engine required.
+
 Unreal Engine 5.8, Blueprint only. Greybox geometry and the Third Person template: the work is in the systems.
 
 An interactive cinematic wired end to end: trigger, control handoff, camera blending, a branching choice, skip, and a streaming boundary.
@@ -60,6 +62,6 @@ Nothing stays orange once it can no longer be used.
 | `Content/Maps/L_Main` | Persistent | The ship: interior spaces and outer hull |
 | `Content/Maps/L_Outside` | Streaming sublevel | The surface: ground and terrain |
 
-Audio is generated at runtime by MetaSounds. The repository carries no sound files. Assets are stored with Git LFS.
+## Audio and assets
 
-Aleksei Petrovskii — alexeypetrowski@gmail.com
+Audio is generated at runtime by MetaSounds. The repository carries no sound files. Assets are stored with Git LFS.
