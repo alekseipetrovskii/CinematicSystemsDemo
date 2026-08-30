@@ -2,6 +2,10 @@
 
 Blueprint-only demo of an interactive cinematic.
 
+![The director's event graph: every entry point, coloured by what fires it](Media/director_state_flow.jpg)
+
+Blue is the world calling in, red is a Sequencer event track, tan is a timer or a delegate the director set for itself.
+
 ## Shape of the scene
 
 The scene runs in three beats:
